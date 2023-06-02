@@ -38,14 +38,14 @@
 # Помогите Кате отгадать задуманные Петей числа.
 
 
-s = int(input("Введите сумму чисел: "))
-p = int(input("Введите произведение чисел: "))
-
-for x in range(1001):
-    for y in range(1001):
-        if x + y == s and x * y == p:
-            print(f"Задуманные числа: x = {x}, y = {y}")
-            exit()
+# s = int(input("Введите сумму чисел: "))
+# p = int(input("Введите произведение чисел: "))
+#
+# for x in range(1001):
+#     for y in range(1001):
+#         if x + y == s and x * y == p:
+#             print(f"Задуманные числа: x = {x}, y = {y}")
+#             exit()
 
 
 
